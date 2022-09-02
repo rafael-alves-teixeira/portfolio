@@ -1,6 +1,11 @@
 # Portfólio
 Portfólio do Desenvolvedor
 
-## Tarefa
+## Amostra de Projetos
 
-O controle das tarefas desse projeto será realizado no GitHub
+## Anotações - Exemplo de ícones
+
+:package: nova funcionalidade
+:up: Atualização
+:beatle: correção de bug
+:checkered_flag: release
