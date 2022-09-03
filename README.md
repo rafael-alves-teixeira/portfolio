@@ -5,7 +5,7 @@ Portfólio do Desenvolvedor
 
 ## Anotações - Exemplo de ícones
 
-:package: nova funcionalidade
-:up: Atualização
-:beatle: correção de bug
-:checkered_flag: release
+- :package: nova funcionalidade
+- :up: Atualização
+- :beetle: correção de bug
+- :checkered_flag: release
