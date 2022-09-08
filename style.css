@@ -28,6 +28,10 @@
     --color-second-three: rgba(50, 18, 82, 0.75); /*CRIAR VARIÁVEL*/
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background-size: cover;
     background-color: var(--color-second-two);
@@ -220,6 +224,7 @@ header {
 
 .show-menu .topbar {
     right: 0;
+    z-index: 100;
 }
 
 .menu {
