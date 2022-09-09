@@ -28,9 +28,22 @@ document.querySelector('.control').onclick = function () {
 
 
 function copiarTexto() {
-    let textoCopiado = document.getElementById("texto");
+    let textoCopiado = document.getElementById("texto1");
     textoCopiado.select();
     textoCopiado.setSelectionRange(0, 99999)
     document.execCommand("copy");
-    alert(textoCopiado.value);
+}
+
+function copiarTexto() {
+    let textoCopiado = document.getElementById("texto2");
+    textoCopiado.select();
+    textoCopiado.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+}
+
+function copiarTexto() {
+    let textoCopiado = document.getElementById("texto3");
+    textoCopiado.select();
+    textoCopiado.setSelectionRange(0, 99999)
+    document.execCommand("copy");
 }

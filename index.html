@@ -52,11 +52,11 @@
             </div>
         </header>
 
-        <div class="social-media">
+        <!-- <div class="social-media">
             <a href="#"><i class="fa-brands fa-linkedin"></i></a>
             <a href="#"><i class="fa-brands fa-github"></i></a>
             <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
-        </div>
+        </div> -->
 
         <div class="topbar">
             <nav>
@@ -71,7 +71,7 @@
         </div>
     </div>
 
-    <main>
+    <main class="main">
 
 
         <section class="sessao-sobre" id="sobre">
@@ -80,7 +80,6 @@
             </div>
             <div class="sobre">
                 <div class="card-imageprofile">
-                    <div class="imageprofile"></div>
                     <img src="imagens/AstronautaRafael.png" alt="Foto de Perfil Rafael">
                 </div>
                 <div class="card-sobre">
@@ -113,9 +112,9 @@
         </section>
 
 
-        <section class="sessao-conhecimentos" id="conhecimentos">
+        <section class="sessao-conhecimentos" id="conhecimentos" >
             <div class="sessao-header">
-                <h1>Conhecimentos</h1>
+                <h1 id="conhecimentos">Conhecimentos</h1>
             </div>
 
             <div class="conhecimentos">
@@ -262,30 +261,31 @@
         <div class="contato">
 
 
-            <div class="card-contato">
+            <!-- <div class="card-contato">
                 <i class="fa fa-envelope"></i>
                 <h2>rafael.info.tc@gmail.com</h2>
-            </div>
-            <div class="card-contato" id="texto2" onclick="copiarTexto()">
-                <i class="fa-brands fa-whatsapp"></i>
-                <h2>(11) 95839-9657</h2>
-            </div>
+                <input type="text" name="texto" id="texto" placeholder="(11) 95839-9657"
+                value="(11) 95839-9657" readonly/>
+            </div> -->
+
             <div class="card-contato" onclick="copiarTexto()">
                 <i class="fa-brands fa-linkedin"></i>
-                <h2>@rafael-alves-teixeira</h2>
+                <input type="text" name="texto" id="texto3" placeholder="@rafael-alves-teixeira"
+                value="@rafael-alves-teixeira" readonly/>
             </div>
 
 
             <div class="card-contato" onclick="copiarTexto()">
                 <i class="fa fa-envelope"></i>
-
-                <input type="text" name="texto" id="texto" placeholder="rafael.info.tc@gmail.comxxxxxxxxxx"
-                value="rafael.info.tc@gmail.comgggggggggggg" readonly/>
-
-                <button onclick="copiarTexto()">Copiar</button>
+                <input type="text" name="texto" id="texto2" placeholder="rafael.info.tc@gmail.com"
+                value="rafael.info.tc@gmail.com" readonly/>
             </div>
 
-
+            <div class="card-contato"  onclick="copiarTexto()">
+                <i class="fa-brands fa-whatsapp"></i>
+                <input type="text" name="texto" id="texto3" placeholder="(11) 95839-9657"
+                value="(11) 95839-9657" readonly/>
+            </div>
 
         </div>
         <footer>
