@@ -408,15 +408,13 @@ header {
 }
 
 .card {
+  position: relative;
+  background: -webkit-linear-gradient(to bottom, var(--color-second-three), var(--color-primary-three));
+  background: linear-gradient(to bottom, var(--color-second-three), var(--color-primary-three));
   width: 20rem;
   height: 75vh;
   padding: 0.6rem;
   border-radius: 0.5rem;
-  position: relative;
-  background: -webkit-linear-gradient(to bottom, var(--color-second-three), var(--color-primary-three));
-  background: linear-gradient(to bottom, var(--color-second-three), var(--color-primary-three));
-
-
   opacity: 0.8;
   border: var(--color-primary-one) 1px solid;
   margin-bottom: 2rem;
