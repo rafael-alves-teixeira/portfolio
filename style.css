@@ -350,13 +350,13 @@ header {
 }
 
 .card-sobre p {
-  font-size: 1.07rem;
+  font-size: 1.17rem;
   color: var(--color-contrast);
   margin-block-start: 1rem;
   margin-block-end: 1rem;
   line-height: 1.5rem;
   text-shadow: 5px 5px 10px var(--color-bg-dark);
-  font-family: var(--font-primary);
+  font-family: var(--font-secundary);
 
   position: relative;
 }
@@ -400,6 +400,7 @@ header {
   color: var(--color-second-one);
   text-transform: uppercase;
   font-family: var(--font-primary);
+  font-size: 25px;
   text-align: center;
   text-shadow: 0.01rem 0.01rem 0.1rem #000;
 }
