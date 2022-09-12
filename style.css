@@ -37,7 +37,6 @@ html {
 body {
   background-size: cover;
   background-color: var(--color-second-two);
-
   background: -webkit-linear-gradient(to bottom, var(--color-bg-dark), var(--color-second-three));
   background: linear-gradient(to bottom, #06060e, #100a1c, #7a0bc0, #ed4f0b);
 }
@@ -210,6 +209,7 @@ header {
 }
 
 .topbar {
+  /* z-index: 100; */
   font-family: 'Faster One', cursive;
   width: 100vw;
   height: 10vh;
@@ -655,7 +655,9 @@ footer {
 }
 
 #link-topo {
-  position: fixed;
+  /* position: fixed; */
+  z-index: 100;
+
   right: 3rem;
   bottom: 3rem;
   width: 3rem;
@@ -671,7 +673,7 @@ footer {
   box-shadow: 0 0.1rem 0.6rem #00000009;
 }
 
-/* @media (max-width: 576px) {
+@media (max-width: 576px) {
 
   .banner h1 {
     font-size: 3rem;
@@ -718,19 +720,19 @@ footer {
     width: 15rem;
     height: 55vh;
   }
-} */
+} 
 
-/* @media (max-width: 850px) {
+@media (max-width: 1015px) {
   .banner h1 {
-    font-size: 5rem;
-  }
-
-  .banner p {
     font-size: 4rem;
   }
 
+  .banner p {
+    font-size: 3rem;
+  }
+
   .banner button {
-    font-size: 2.5rem;
+    font-size: normal;
   }
 
   .sobre {
@@ -766,8 +768,37 @@ footer {
     margin-top: 5px;
   }
 
-  .card {
-    width: 15rem;
-    height: 55vh;
+  .projetos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
   }
-} */
+
+  .card {
+    width: 35rem;
+    height: 90vh;
+  }
+
+}
+
+@media (max-width: 600px){
+  .card {
+    width: 20rem;
+    height: 70vh;
+  }
+  .banner h1 {
+    font-size: 2rem;
+  }
+
+  .banner p {
+    font-size: 1.5rem;
+  }
+
+  .banner button {
+    font-size: small;
+  }
+
+}
+
