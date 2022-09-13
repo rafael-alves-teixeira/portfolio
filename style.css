@@ -313,14 +313,16 @@ header {
   color: var(--color-primary-one);
   text-shadow: 2px 2px 1px var(--color-bg-dark);
   border-bottom: solid 3px var(--color-second-one);
-  margin-bottom: 0.5rem;
-  margin-top: 1.5rem;
-  position: relative;
+  margin-bottom: 1.5rem;
+  margin-top: 2.1rem;
+  /* position: relative; dddddddddddddddddddddddddddddddddddddddddddddddd*/
 
 }
 
 .main {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
 }
 
 
@@ -372,6 +374,7 @@ header {
 
 .sessao-conhecimentos {
   margin-top: 5px;
+  padding-top: 100px;
   position: relative;
   display: block;
   height: 600px;
@@ -394,7 +397,7 @@ header {
 
 .card-tecs i {
   flex: 0 1 40%;
-  font-size: 5rem;
+  font-size: 2rem;
   word-spacing: 5rem;
   text-shadow: 0.1rem 0.1rem 1rem #a01ce7;
   color: var(--color-primary-one);
@@ -739,11 +742,15 @@ footer {
   }
 
   .card-sobre {
-    margin: auto auto;
+    margin: auto;
     width: auto;
+    height: auto;
     padding: 15px;
   }
 
+  .sessao-conhecimentos {
+    padding-top: 200px;
+  }
 
   #conhecimentos {
     margin-top: 500px;
@@ -794,14 +801,13 @@ footer {
   }
 
   .sessao-conhecimentos {
-    margin-top: 5px;
-    padding-top: 3px;
-    padding-bottom: 700px;
-    height: 600px;
-    margin-top: 10px;
-    height: 600px;
+    margin: auto;
+    height: auto;
+    padding-top: 650px;
+
   }
 
+  
   #conhecimentos {
     margin-top: 5px;
   }
@@ -838,5 +844,31 @@ footer {
     font-size: small;
   }
 
+  .sessao-conhecimentos {
+    padding-top: 700px;
+  }
+
 }
 
+@media (max-width: 528px){
+  .sessao-conhecimentos {
+    padding-top: 900px;
+  }
+}
+
+@media (max-width: 427px){
+  .sessao-conhecimentos {
+    padding-top: 1000px;
+  }
+}
+
+@media (max-width: 400px){
+  .sessao-conhecimentos {
+    padding-top: 1000px;
+  }
+
+  .sessao-header h1 {
+    font-size: 2rem;
+  }
+
+}
