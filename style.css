@@ -859,6 +859,23 @@ footer {
   .sessao-conhecimentos {
     padding-top: 900px;
   }
+
+  .topbar {
+  
+    width: 100vw;
+    height: 10vh;    
+    position: fixed;
+    top: 0;
+    right: -125vw;
+    transition: all 1s;
+  }
+  
+  .show-menu .topbar {
+    right: 0;
+    z-index: 125;
+  }
+
+
 }
 
 @media (max-width: 427px){
