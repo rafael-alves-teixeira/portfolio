@@ -1,8 +1,5 @@
 document.querySelector(".hamburguer").addEventListener("click", () =>
-    document.querySelector(".container").classList.toggle("show-menu"));
-
-// var clipboard = new Clipboard('.btn');
-
+document.querySelector(".container").classList.toggle("show-menu"));
 
 var audio = document.getElementById('audio');
 var audioTocando = false;
