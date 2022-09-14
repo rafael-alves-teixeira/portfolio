@@ -378,12 +378,13 @@ header {
   position: relative;
   display: block;
   height: 600px;
+  /* height: auto; */
 }
 
 #conhecimentos {
   margin-top: 100px;
-
 }
+
 
 .conhecimentos {
   padding: 15px;
@@ -393,6 +394,10 @@ header {
   align-items: center;
   height: 80vh;
   margin: auto;
+}
+
+.sessao-projetos {
+  margin-top: 4rem;
 }
 
 .card-tecs i {
@@ -795,7 +800,7 @@ footer {
   }
 
   .card-sobre {
-    margin: auto auto;
+    margin: auto;
     width: auto;
     padding: 15px;
   }
@@ -858,13 +863,13 @@ footer {
 
 @media (max-width: 427px){
   .sessao-conhecimentos {
-    padding-top: 1000px;
+    padding-top: 1050px;
   }
 }
 
 @media (max-width: 400px){
   .sessao-conhecimentos {
-    padding-top: 1000px;
+    padding-top: 1100px;
   }
 
   .sessao-header h1 {
