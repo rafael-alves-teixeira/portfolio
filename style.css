@@ -134,6 +134,7 @@ header {
   height: 100%;
   overflow: hidden;
   background-color: var(--color-bg-dark);
+  padding: 2px;
 }
 
 .img-wrapper img {
@@ -442,6 +443,8 @@ header {
   background: linear-gradient(to bottom, var(--color-second-three), var(--color-primary-three));
   width: 20rem;
   height: 75vh;
+  min-height: 470px;
+  /* height: 100%; */
   padding: 0.6rem;
   border-radius: 0.5rem;
   border: var(--color-primary-one) 1px solid;
@@ -501,8 +504,8 @@ header {
   font-weight: 200;
   color: var(--color-contrast);
   width: 100%;
-  margin-bottom: 0.5rem;
-  height: 40%;
+  margin-bottom: 0.1rem;
+  height: 7rem;
 }
 
 .card-info button {
@@ -511,10 +514,9 @@ header {
   font-weight: bold;
   width: 8rem;
   height: 2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   background-color: var(--color-primary-one);
   box-shadow: var(--color-primary-two) 0.1rem 0.1rem 0.4rem 0.1rem;
-  margin-bottom: 1.3rem;
   border: 5px solid var(--color-primary-two);
   border-radius: 5px;
   color: var(--color-second-two);
@@ -530,6 +532,10 @@ header {
   text-align: center;
   word-spacing: 1rem;
   /* opacity: 0.4; */
+  /* height: auto; */
+  margin-bottom: 10px;
+  /* object-fit: contain; */
+  bottom: 10px;
 
 }
 
