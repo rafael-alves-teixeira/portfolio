@@ -516,33 +516,37 @@ header {
   font-family: var(--font-primary);
   font-size: 1rem;
   font-weight: bold;
-  width: 15rem;
+  width: 11rem;
   height: 2rem;
   margin-inline: auto;
   margin-bottom: 0.7rem;
-  padding-bottom: 1.5rem;
+  /* padding-bottom: 1.5rem; */
+  padding: 4px;
   background-color: var(--color-primary-one);
   box-shadow: var(--color-primary-two) 0.1rem 0.1rem 0.4rem 0.1rem;
-  border: 5px solid var(--color-primary-two);
+  /* border: 5px solid var(--color-primary-two); */
   border-radius: 5px;
   color: var(--color-second-two);
 }
 
+.construcao {
+  background-image: url(imagens/btnConstrucao.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
 
 .tecs {
-  /* color: #90e0ef; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   color: var(--color-primary-one);
   text-transform: uppercase;
   font-family: var(--font-action);
   font-size: 0.8rem;
   text-align: center;
-  word-spacing: 1rem;
-  /* opacity: 0.4; */
-  /* height: auto; */
   margin-bottom: 10px;
-  /* object-fit: contain; */
   bottom: 10px;
-
 }
 
 /* ** CONTATO ** */
