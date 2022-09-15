@@ -21,25 +21,22 @@ document.querySelector('.control').onclick = function () {
     }
 }
 
-// document.querySelector('#copie').select();
-// document.execCommand('copy');
 
-
-function copiarTexto() {
+function copiarLinkedin() {
     let textoCopiado = document.getElementById("texto1");
     textoCopiado.select();
     textoCopiado.setSelectionRange(0, 99999)
     document.execCommand("copy");
 }
 
-function copiarTexto() {
+function copiarEmail() {
     let textoCopiado = document.getElementById("texto2");
     textoCopiado.select();
     textoCopiado.setSelectionRange(0, 99999)
     document.execCommand("copy");
 }
 
-function copiarTexto() {
+function copiarTelefone() {
     let textoCopiado = document.getElementById("texto3");
     textoCopiado.select();
     textoCopiado.setSelectionRange(0, 99999)
