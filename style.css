@@ -506,13 +506,13 @@ header {
 .card-info p {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
   font-family: var(--font-secundary);
-  line-height: 1rem;
+  line-height: 1.3rem;
   text-align: justify;
   font-size: 1.2rem;
   font-weight: 200;
   color: var(--color-contrast);
   width: 100%;
-  margin-bottom: 0.1rem;
+  margin-bottom: 1.1rem;
   height: 7rem;
 }
 
@@ -524,7 +524,7 @@ header {
   width: 15rem;
   height: 2rem;
   margin-inline: auto;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.7rem;
   padding-bottom: 1.5rem;
   background-color: var(--color-primary-one);
   box-shadow: var(--color-primary-two) 0.1rem 0.1rem 0.4rem 0.1rem;
