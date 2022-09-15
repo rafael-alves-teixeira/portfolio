@@ -880,12 +880,12 @@ footer {
     height: 10vh;    
     position: fixed;
     top: 0;
-    right: -125vw;
+    /* right: -125vw; */
     transition: all 1s;
   }
   
   .show-menu .topbar {
-    right: 0;
+    right: 50;
     z-index: 125;
   }
 
