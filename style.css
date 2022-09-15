@@ -150,8 +150,7 @@ header {
 
 .banner {
   position: absolute;
-  top: 55%;
-  /* left: 10%; */
+  bottom: 10%;
   text-align: center;
   width: 100%;
   object-fit: fill;
@@ -174,7 +173,7 @@ header {
 
 .banner p {
   font-family: 'Bigelow Rules', cursive;
-  font-size: 1.2rem;
+  font-size: 2.2rem;
   font-weight: bolder;
   text-shadow: .15rem .15rem var(--secondary-color);
   margin-bottom: 1rem;
