@@ -407,7 +407,7 @@ header {
 
 .card-tecs i {
   flex: 0 1 40%;
-  font-size: 2rem;
+  font-size: 3rem;
   word-spacing: 5rem;
   text-shadow: 0.1rem 0.1rem 1rem #a01ce7;
   color: var(--color-primary-one);
@@ -542,6 +542,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  
   color: var(--color-primary-one);
   text-transform: uppercase;
   font-family: var(--font-action);
