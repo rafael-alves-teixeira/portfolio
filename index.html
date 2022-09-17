@@ -36,8 +36,11 @@
         </div>
         <header id="home">
             <div class="img-wrapper">
-                <img src="imagens/HeaderWallpaper.gif"
-                    alt="Imagem de fundo do cabeçalho de um astronauta boiando na água.">
+                <video autoplay muted loop>
+                    <source src="imagens/HeaderWallpaperCompressed2.mp4" type="video/mp4">
+                </video>
+                <!-- <img src="imagens/HeaderWallpaperCompressed.mp4"
+                    alt="Imagem de fundo do cabeçalho de um astronauta boiando na água."> -->
             </div>
             <div class="banner">
                 <h1>Rafael Alves Teixeira</h1>
@@ -350,10 +353,13 @@
                 </div>
                 <div class="card">
                     <div class="card-img-wrapper">
-                        <picture>
-                            <!-- <source srcset="./imagens/reveladorDestino.webp" type="image/webp"> -->
+                        <!-- <picture>
+                            <source srcset="./imagens/reveladorDestino.webp" type="image/webp">
                             <img src="./imagens/reveladorDestino.gif" alt="imagem do projeto Revelador de Destinho" />
-                        </picture>
+                        </picture> -->
+                        <video autoplay muted loop>
+                            <source src="imagens/reveladorDestinoCompressed.mp4" type="video/mp4">
+                        </video>
                     </div>
                     <div class="card-info">
                         <h2>Revelador de Destino</h2>
@@ -382,39 +388,37 @@
             <img src="imagens/FooterImage.gif"
                 alt="Imagem de fundo de um astronauta sobrevoando a cidade.">
         </div> -->
+        <div class="wrap-contact-video">
+            <video autoplay muted loop>
+                <source src="imagens/FooterImageCompressed2.mp4" type="video/mp4">
+            </video>
+        </div>
 
         <div class="contact">
             <h1 id="contact">Contato</h1>
         </div>
         <div class="contato">
-
-
             <!-- <div class="card-contato">
                 <i class="fa fa-envelope"></i>
                 <h2>rafael.info.tc@gmail.com</h2>
                 <input type="text" name="texto" id="texto" placeholder="(11) 95839-9657"
                 value="(11) 95839-9657" readonly/>
             </div> -->
-
             <div class="card-contato" onclick="copiarLinkedin()">
                 <i class="fa-brands fa-linkedin"></i>
                 <input type="text" name="texto" id="texto1" placeholder="@rafael-alves-teixeira"
                     value="@rafael-alves-teixeira" readonly />
             </div>
-
-
             <div class="card-contato" onclick="copiarEmail()">
                 <i class="fa fa-envelope"></i>
                 <input type="text" name="texto" id="texto2" placeholder="rafael.info.tc@gmail.com"
                     value="rafael.info.tc@gmail.com" readonly />
             </div>
-
             <div class="card-contato" onclick="copiarTelefone()">
                 <i class="fa-brands fa-whatsapp"></i>
                 <input type="text" name="texto" id="texto3" placeholder="(11) 95839-9657" value="(11) 95839-9657"
                     readonly />
             </div>
-
         </div>
         <footer>
             <div class="footer-content">

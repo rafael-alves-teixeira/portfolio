@@ -40,13 +40,18 @@ body {
   background-color: var(--color-second-two);
   background: -webkit-linear-gradient(to bottom, var(--color-bg-dark), var(--color-second-three));
   background: linear-gradient(to bottom, #06060e, #100a1c, #7a0bc0, #ed4f0b);
-  min-width: 375px; /*PAREI AQUIIIIIIIIIIIIIIIIIIII*/
-  display: flex;/*PAREI AQUIIIIIIIIIIIIIIIIIIII*/
-  flex-direction: column;/*PAREI AQUIIIIIIIIIIIIIIIIIIII*/
-  margin: 0 auto;/*PAREI AQUIIIIIIIIIIIIIIIIIIII*/
+  min-width: 375px; 
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
   width: 100vw;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
 
 .hamburguer {
   width: 2rem;
@@ -88,7 +93,7 @@ body {
 
 .hamburguer span {
   position: absolute;
-  z-index: ;
+  z-index: 100; /*verificar*/
   right: 3rem;
   height: 2rem;
   /* left: 1rem; */
@@ -141,7 +146,9 @@ header {
 
 }
 
-.img-wrapper img {
+.img-wrapper img,
+.img-wrapper video
+ {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -327,12 +334,6 @@ header {
 
 }
 
-.main {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-}
-
 
 /* ** SOBRE ** */
 .sobre {
@@ -340,7 +341,6 @@ header {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  /* height: 77vh; */
   height: 100%;
   margin-bottom: 0 2rem;
 }
@@ -467,7 +467,8 @@ header {
   margin-bottom: 0.5rem;
 }
 
-.card-img-wrapper img {
+.card-img-wrapper img,
+.card-img-wrapper video {
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -551,26 +552,37 @@ header {
 
 /* ** CONTATO ** */
 
+
 .sessao-contato {
-  background-image: url(./imagens/FooterImage.gif);
+  /* background-image: url(./imagens/FooterImageCompressed.mp4); */
   background-size: cover;
   background-position:center;
   display: flex;
   flex-direction: column;
+
+  position: relative;
+  /* overflow: hidden; */
+  width: 100%;
+  height: 100vh;
 }
 
-/* .wrap-contact-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
+.wrap-contact-video {
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
-} */
+  overflow: hidden;
+  position: relative;
+  bottom: 0;
+}
+
+.wrap-contact-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .contact h1 {
   border-bottom: solid 3px var(--color-second-one);
+  position: absolute;
 }
 
 .contato {
@@ -581,7 +593,8 @@ header {
   margin-left: 2rem;
   color: var(--color-bg-dark);
   text-shadow: 1px 1px 1px var(--color-contrast);
-
+  position: absolute;
+  margin-top: 15rem;
 }
 
 .contact {
@@ -604,6 +617,8 @@ header {
   margin-left: 35px;
   height: 100px;
   padding-top: 60px;
+  position: absolute;
+
 }
 
 .card-contato {
@@ -612,7 +627,6 @@ header {
   padding: 5px 5px;
   border-radius: 0.5rem;
   margin-bottom: 25px;
-  position: relative;
   background-color: rgb(247, 71, 124);
   border: 2px solid var(--color-contrast);
   border: 1px solid var(--color-primary-one);
@@ -621,6 +635,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .card-contato:hover {
@@ -667,7 +682,6 @@ input {
   background-color: rgb(247, 71, 124);
   color: var(--color-bg-dark);
   text-shadow: 1px 1px 1px var(--color-contrast);
-  position: relative;
 }
 
 input:hover {
@@ -689,7 +703,6 @@ footer {
   font-family: 'Audiowide', cursive;
   font-size: 1rem;
   text-transform: uppercase;
-
   background: -webkit-linear-gradient(to right, var(--color-second-three), var(--color-primary-three));
   background: linear-gradient(to right, var(--color-second-three), var(--color-primary-three));
   border-top: 3px solid var(--color-second-one);
@@ -697,6 +710,9 @@ footer {
   color: var(--color-contrast);
   text-shadow: 2px 2px 5px var(--color-primary-one);
   opacity: 0.9;
+  position: absolute;
+  bottom: 0;
+
 }
 
 .footer-content,
