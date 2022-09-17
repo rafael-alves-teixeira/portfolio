@@ -1,5 +1,6 @@
 document.querySelector(".hamburguer").addEventListener("click", () => 
-document.querySelector(".container").classList.toggle("show-menu"));
+document.querySelector(".headerContainer").classList.toggle("show-menu")
+);
 
 
 var audio = document.getElementById('audio');
