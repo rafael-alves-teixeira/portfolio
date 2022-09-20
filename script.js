@@ -18,7 +18,7 @@ document.querySelector('.control').onclick = function () {
         audioTocando = true;
         var playButton = document.querySelector('.btPlay')
         playButton.className = "btPause";
-        playButton.innerHTML = "<i class='fa-solid fa-volume-xmark'></i>  Pausar o som";
+        playButton.innerHTML = "<i class='fa-solid fa-volume-xmark'></i>  Pausar";
     }
 }
 
