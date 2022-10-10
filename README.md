@@ -1,4 +1,4 @@
-<h1 align="center">Projeto Portfólio</h1>
+<h1 align="center">Portfólio</h1>
 <p align="center">Aplicação realizada com o intuito de reunir e apresentar alguns dos principais projetos desenvolvidos ao longo dos meus estudos de programação.</p>
 
 <div align="center">
