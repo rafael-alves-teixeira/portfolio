@@ -544,8 +544,7 @@ header {
 .construcao {
   background-image: url(imagens/btnConstrucao.jfif);
   background-size: cover;
-  background-repeat: no-repeat;
-  
+  background-repeat: no-repeat;  
 }
 
 .tecs {
